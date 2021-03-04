@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.prod.json",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "compilerOptions": {
+      "module": "CommonJS",
+      "outDir": "dist/"
+    },
+  }
