@@ -1,4 +1,5 @@
 // this shim is required
+import 'reflect-metadata'
 import { createExpressServer } from 'routing-controllers';
 import { UserController } from './UserController';
 
